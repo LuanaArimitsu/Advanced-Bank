@@ -1,0 +1,44 @@
+.quemsomos {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.caixa {
+    position: relative;
+    width: 870px;
+    height: 400px;
+    background-image: linear-gradient(#222a30, #024f92bc);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-left: 250px;
+    margin-top: 400px;
+    font-family: poppins;
+}
+
+.caixa h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+}
+
+.caixa p {
+    color: #FFF;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+.caixa2 img {
+    width:100%;
+    position: absolute;
+    margin-top: -200px;
+
+}
+
+.linha img{
+    width: 100%;
+    height: 100px;
+    margin-top: 250px;
+
+}
