@@ -7,7 +7,7 @@ function Home() {
     return (
 
         <section>
-            <div className={Styles.grupo}>
+            <div id='home' className={Styles.grupo}>
                 <div className={Styles.texto}>
                     <h6>Seja bem-vindo(a)</h6>
                     <p>Aqui no <span>Advanced Bank</span> o avanço <br></br> da sua vida financeira é garantida</p>

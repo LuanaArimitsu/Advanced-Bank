@@ -13,7 +13,7 @@ function Header() {
 
             <nav className={Styles.menu}>
                 <ul>
-                    <li>Home</li>
+                    <li> <a href='#home'>Home</a></li>
                     <li><a href='#sobre'>Sobre nós</a></li>
                     <li> <a href='#contato'>Contato</a></li>
                     <li>Registre-se</li>

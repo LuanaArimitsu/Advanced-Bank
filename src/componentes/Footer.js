@@ -1,15 +1,19 @@
 import Styles from '../CSS/Footer.module.css'
-import logo from '../componentes/Home/img/logouc3.png'
-import linkedin from '../componentes/Home/img/LinkedIn.png'
-import instagram from '../componentes/Home/img/Instagram.png'
-import github from '../componentes/Home/img/GitHub.png'
-import linha from '../componentes/Home/img/hr.png'
+import logo from '../img/logouc3.png'
+import linkedin from '../img/LinkedIn.png'
+import instagram from '../img/Instagram.png'
+import github from '../img/GitHub.png'
+import linha from '../img/hr.png'
 
 
 function Footer() {
     return (
         <footer id='contato'>
+            
+            <a href='#home'>
             <img className={Styles.logo} src={logo} alt='logo' />
+            </a>
+           
             <div className={Styles.info}>
                 <h5>Fale Conosco</h5>
                 <h5>(11)99999-9999</h5>
@@ -24,6 +28,7 @@ function Footer() {
             
             <div className={Styles.linha}>
                 <img src={linha} alt='linha' />
+               
                 <p>@Copyright 2023 Advanced Bank</p>
             </div>
         </footer>
