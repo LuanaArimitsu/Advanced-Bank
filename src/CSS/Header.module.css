@@ -140,7 +140,7 @@ li a:hover:after{
         display: block;
 
     }
-    .mobilemenuicon button {
+     button {
         background-color: transparent;
         border: none;
         cursor: pointer;
