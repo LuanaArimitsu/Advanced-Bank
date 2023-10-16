@@ -77,9 +77,6 @@ li a:hover:after{
 .menu {
     width: 85%;
     height: 80px;
-    box-sizing: border-box;
-    border: 2px solid #fff;
-    border-radius: 10px;
 }
 
 
