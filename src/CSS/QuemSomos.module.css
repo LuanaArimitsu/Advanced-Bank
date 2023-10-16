@@ -16,14 +16,15 @@
     font-family: poppins;
 }
 
-.caixa h3 {
+.caixa h5 {
     color: #FFF;
     text-align: center;
-    font-size: 45px;
+    font-size: 42px;
 }
 
 .caixa p {
     color: #FFF;
+    font-family: poppins-light;
     text-align: center;
     margin-top: 60px;
     font-size: 25px;

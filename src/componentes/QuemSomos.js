@@ -13,7 +13,7 @@ function QuemSomos() {
 
             <div id='sobre' className={Styles.caixa}>
 
-                <h3>Sobre o AD Bank</h3>
+                <h5>Sobre o AD Bank</h5>
                 <p>O Advanced Bank nasceu com o intuito de mudar o mundo dos bancos, trazendo a tecnologia de forma simples e práticas inovadoras. É um banco que valoriza os clientes trazendo uma experiência humana e personalizada, priorizamos a seguranças de nossos AD Bankers com transparência nas relações e transações. Aqui no AD Bank o seu dinheiro estará seguro e avançando.</p>
             </div>
 
