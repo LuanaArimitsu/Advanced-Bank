@@ -52,12 +52,10 @@ li:hover {
     -ms-transform: scale(1.3);
     transform: scale(1.3);
     cursor: pointer;
-   
 
 }
 
-li a::after{
-    content: '';
+li a:after{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
