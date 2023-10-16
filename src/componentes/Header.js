@@ -1,6 +1,6 @@
 import Styles from '../CSS/Header.module.css'
 import logo from '../img/logouc3.png'
-import React, { useState } from 'react';
+import  { React, useState } from 'react';
 
 
 function Header() {
