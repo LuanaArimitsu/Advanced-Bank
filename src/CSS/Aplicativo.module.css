@@ -33,3 +33,10 @@
     display: inline-block;
     position: relative;
 }
+
+@media (min-width: 320px) and (max-width: 480px){
+    .imagem img{
+        width: 100%;
+        margin-left: -100px;
+    }
+}
