@@ -1,10 +1,13 @@
 header {
     width: 100%;
     height: 100px;
-    text-align: center;
+  
+
+}
+
+nav{
     display: flex;
-    align-items: center;
-    flex-direction: row;
+    
 }
 
 .logo img {
@@ -38,6 +41,7 @@ a {
     font-family: poppins-light;
     text-decoration: none;
     color: #fff;
+    padding-block: 16px;
 
 }
 
@@ -55,7 +59,7 @@ li:hover {
 
 }
 
-li a:after{
+li a:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -68,7 +72,7 @@ li a:after{
     transition: transform 0.3s ease-out;
 }
 
-li a:hover:after{
+li a:hover:after {
     transform: scaleX(1);
     transform-origin: bottom;
 }
@@ -78,4 +82,64 @@ li a:hover:after{
     height: 80px;
 }
 
+.mobilemenuicon{
+    display: none;
+}
 
+.mobilemenu{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .login {
+        display: none;
+    }
+    .mobilemenuicon {
+        display: block;
+
+    }
+
+    .mobilemenu{
+        width: 80%;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .mobilemenuicon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    ul li{
+        display: none;
+    }
+
+    .mobilemenu ul {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: #113171;
+
+        border-radius: 50px;
+    }
+    .mobilemenu .navitem {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobilemenu .loginbutton {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobilemenu .loginbutton button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    }
