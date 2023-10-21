@@ -48,11 +48,12 @@
 
 @media screen and (max-width: 768px){
     .fundo{
+        margin-top: 300px;
         width: 100%;
     }
 
     .estilo h5{
-        font-size: 30px;
+        font-size: 15px;
         margin-top: -190px;
     }
 

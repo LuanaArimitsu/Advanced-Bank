@@ -1,13 +1,12 @@
 header {
     width: 100%;
     height: 100px;
-  
 
 }
 
-nav{
+nav {
     display: flex;
-    
+
 }
 
 .logo img {
@@ -82,11 +81,11 @@ li a:hover:after {
     height: 80px;
 }
 
-.mobilemenuicon{
+.mobilemenuicon {
     display: none;
 }
 
-.mobilemenu{
+.mobilemenu {
     display: none;
 }
 
@@ -94,13 +93,13 @@ li a:hover:after {
     .login {
         display: none;
     }
+
     .mobilemenuicon {
         display: block;
-       
 
     }
 
-    .mobilemenu{
+    .mobilemenu {
         width: 80%;
         position: absolute;
         z-index: 10;
@@ -112,7 +111,7 @@ li a:hover:after {
         cursor: pointer;
     }
 
-    ul li{
+    ul li {
         display: none;
     }
 
@@ -126,21 +125,25 @@ li a:hover:after {
 
         border-radius: 50px;
     }
+
     .mobilemenu .navitem {
         display: block;
         padding-top: 1.2rem;
     }
+
     .mobilemenu .loginbutton {
         display: block;
         padding: 1rem 2rem;
     }
+
     .mobilemenu .loginbutton button {
         width: 100%;
     }
+
     .open {
         display: block;
         display: flex;
         justify-content: center;
     }
 
-    }
+}
