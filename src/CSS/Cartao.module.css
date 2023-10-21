@@ -45,3 +45,18 @@
     transition: 1s ease-in-out;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+    .fundo{
+        width: 100%;
+    }
+
+    .estilo h5{
+        font-size: 30px;
+        margin-top: -190px;
+    }
+
+    .botao{
+        margin-bottom: 320px;
+    }
+}

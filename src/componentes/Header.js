@@ -36,10 +36,10 @@ function Header() {
 
             <div className={`${Styles.mobilemenu} ${isMenuOpen ? Styles.open : ''}`}>
                 <ul>
-                    <li className={Styles.navitem}><a className={Styles.navlink}>Serviços</a></li>
-                    <li className={Styles.navitem}><a className={Styles.navlink}>Vantagens</a></li>
-                    <li className={Styles.navitem}><a className={Styles.navlink}>Aplicativo</a></li>
-                    <li className={Styles.navitem}><a className={Styles.navlinks}>Área do Cliente</a></li>
+                    <li className={Styles.navitem}><a className={Styles.navlink} href='#home'>Home</a></li>
+                    <li className={Styles.navitem}><a className={Styles.navlink} href='#sobre'>Sobre nós</a></li>
+                    <li className={Styles.navitem}><a className={Styles.navlink} href='#contato'>Contato</a></li>
+                    <li className={Styles.navitem}><a className={Styles.navlinks} href='#'>Registre-se</a></li>
                 </ul>
             </div>
 
