@@ -73,7 +73,6 @@ span {
 
         .texto{
             margin-top: 80px;
-            margin-right: 200px;
         }
 
         .texto h6{
@@ -82,6 +81,10 @@ span {
 
         .texto p{
             font-size: 25px;
+        }
+
+        .imagem img{
+            margin-left: 200px;
         }
 
         .linha{
